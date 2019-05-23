@@ -1,6 +1,0 @@
-db.migration.driver=com.mysql.jdbc.Driver
-db.migration.urlStart=jdbc:mysql://<database_server>/
-# User
-db.migration.user=<user_grr>
-# Password
-db.migration.password=<mdp_user_grr>

@@ -1,0 +1,822 @@
+#---------------------------------
+# Branches du Ldap
+#---------------------------------
+dn: dc=esco-centre,dc=fr
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: esco-centre
+
+dn: ou=groups,dc=esco-centre,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=people,dc=esco-centre,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=structures,dc=esco-centre,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+ou: structures
+
+#---------------------------------
+# Structures
+#---------------------------------
+dn: ENTStructureSIREN=19290009000015,ou=structures,dc=esco-centre,dc=fr
+objectClass: ENTEtablissement
+objectClass: ENTStructure
+objectClass: organizationalUnit
+ENTEtablissementContrat: PU
+ENTEtablissementMinistereTutelle: MINISTERE DE L'EDUCATION NATIONALE
+ENTStructureJointure: AC-RENNES$2828
+ENTStructureNomCourant: LG-DE L'IROISE-ac-RENNES
+ENTStructureSIREN: 19290009000015
+ou: LG-DE L'IROISE-ac-RENNES
+ENTEtablissementStructRattachFctl: ENTStructureSIREN=19290009000015,ou=struc
+ tures,dc=esco-centre,dc=fr
+ENTStructureTypeStruct: LYCEE D ENSEIGNEMENT GENERAL
+ENTStructureUAI: 0290009C
+ESCODomaines: lycees.netocentre.fr
+ESCOStructureNomCourt:: TFlDw4lFIERFIEwnSVJPSVNF
+facsimileTelephoneNumber: +33 2 98 41 09 010
+l: BREST CEDEX 2
+postalCode: 29223
+postOfficeBox: BP92349
+street: 7 PLACE DE STRASBOURG
+telephoneNumber: +33 2 98 41 09 00
+
+dn: ENTStructureSIREN=19291595700018,ou=structures,dc=esco-centre,dc=fr
+objectClass: ENTEtablissement
+objectClass: ENTStructure
+objectClass: organizationalUnit
+ENTEtablissementContrat: PU
+ENTEtablissementMinistereTutelle: MINISTERE DE L'EDUCATION NATIONALE
+ENTStructureJointure: AC-RENNES$3019
+ENTStructureNomCourant: CLG-DE L'IROISE-ac-RENNES
+ENTStructureSIREN: 19291595700018
+ou: CLG-DE L'IROISE-ac-RENNES
+ENTEtablissementStructRattachFctl: ENTStructureSIREN=19290009000015,ou=struc
+ tures,dc=esco-centre,dc=fr
+ENTStructureTypeStruct: COLLEGE
+ENTStructureUAI: 0291595B
+ESCODomaines: lycees.netocentre.fr
+ESCOStructureNomCourt:: Q09MTMOIR0UgREUgTCdJUk9JU0U=
+facsimileTelephoneNumber: +33 2 98 41 09 01
+l: BREST CEDEX 2
+postalCode: 29223
+postOfficeBox: BP92349
+street: 7 PLACE DE STRASBOURG
+telephoneNumber: +33 2 98 41 09 00
+
+dn: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+objectClass: ENTEtablissement
+objectClass: ENTStructure
+objectClass: organizationalUnit
+ENTEtablissementContrat: PU
+ENTEtablissementMinistereTutelle: MINISTERE DE L'EDUCATION NATIONALE
+ENTStructureJointure: AC-DEMO$2361
+ENTStructureNomCourant: LPO LYC METIER-FICTIF-ac-ORL._TOURS
+ENTStructureSIREN: 00000000000001
+ou: LPO LYC METIER-FICTIF-ac-ORL._TOURS
+ENTEtablissementBassin: 45A18$BASSIN DU LOIRET
+ENTStructureTypeStruct: LYCEE POLYVALENT
+ENTStructureUAI: 0450822X
+ESCODomaines: lycees.netocentre.fr
+ESCOStructureLogo: /annuaire_images/logos/00000000000001/logoportail0.jpg?10
+ESCOStructureNomCourt:: TFlDw4lFIEZJQ1RJRg==
+facsimileTelephoneNumber: +33 0 00 00 00 00
+l: OLIVET
+postalCode: 45160
+postOfficeBox: 0000
+street:: MTUxIFJVRSBERSBMQSBKVUlORSA=
+telephoneNumber: +33 0 00 00 00 00
+
+dn: ENTStructureSIREN=37373737373737,ou=structures,dc=esco-centre,dc=fr
+objectClass: ENTEtablissement
+objectClass: ENTStructure
+objectClass: organizationalUnit
+ENTEtablissementContrat: PU
+ENTEtablissementMinistereTutelle: MINISTERE DE L'EDUCATION NATIONALE
+ENTStructureJointure: AC-DEMO$2984
+ENTStructureNomCourant: CLG-FICTIF37-ac-ORL._TOURS
+ENTStructureSIREN: 37373737373737
+ou: CLG-FICTIF37-ac-ORL._TOURS
+ENTEtablissementBassin: 18A37$TOURAINE
+ENTStructureTypeStruct: COLLEGE
+ENTStructureUAI: 0377777U
+ESCODefaultUserProfile: Fictif37-skin
+ESCODomaines: www.touraine-eschool.fr
+facsimileTelephoneNumber: +33 0 00 00 00 00
+l: TOURS
+postalCode: 37000
+street:: UGxhY2UgZGUgbGEgUHLDqWZlY3R1cmU=
+telephoneNumber: +33 0 00 00 00 00
+
+dn: ENTStructureSIREN=88888888888888,ou=structures,dc=esco-centre,dc=fr
+objectClass: ENTEtablissement
+objectClass: ENTStructure
+objectClass: organizationalUnit
+ENTEtablissementContrat: PU
+ENTEtablissementMinistereTutelle: Aucun
+ENTStructureJointure: CFA-CENTRE$0333333Y
+ENTStructureNomCourant: CFA Fictif
+ENTStructureSIREN: 88888888888888
+ou: CFA Fictif
+ENTStructureEmail: cfa@cfa-fictif.fr
+ENTStructureTypeStruct: CFA
+ENTStructureUAI: 0333333Y
+ESCODomaines: cfa.netocentre.fr
+ESCOStructureLogo: /annuaire_images/logos/88888888888888/logoportail.jpg?2
+ESCOStructureNomCourt: CFA Fictif
+l: FAKE TOWN
+postalCode: 18028
+street: Adresse fictive
+telephoneNumber: 0234567899
+
+dn: ou=GIP-RECIA,ou=structures,dc=esco-centre,dc=fr
+objectClass: top
+objectClass: organizationalUnit
+objectClass: ENTStructure
+objectClass: ENTCollLoc
+ENTCollLocLieuGeographique: Olivet
+ENTStructureJointure: ou=GIP-RECIA,ou=structures,dc=esco-centre,dc=fr
+ENTStructureNomCourant: GIP-RECIA
+ENTStructureSIREN: 18450311800020,ou=structures,dc=esco-centre,dc=fr
+ou: GIP-RECIA
+ENTStructureTypeStruct: COLLECTIVITE LOCALE
+
+
+#---------------------------------
+# Peoples
+#---------------------------------
+
+# Admins de GRR 
+
+dn: uid=F1000uf3,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: FUPUCEVE CLOTILDE
+ENTPersonJointure: AC-DEMO$1652
+ENTPersonLogin: clotilde.fupuceve
+sn: FUPUCEVE
+displayName: FUPUCEVE CLOTILDE
+ENTAuxEnsCategoDiscipline: 01$PHILOSOPHIE
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$706
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$701
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$702
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$704
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$703
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$705
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$PHILOSOPHIE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$20211011110$TERMINALE SCIENTIFIQUE SI
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$21225504110$T_STI GENIE ELECTRONIQUE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$21225503110$T_STI GENIE ELECTROTECHNIQUE
+ENTPersonDateNaissance: 10/04/1976
+ENTPersonFonctions: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ENS$ENSEIGNEMENT$L0100$PHILOSOPHIE
+ENTPersonNomPatro: LAMY
+ENTPersonProfils: National_ENS
+ENTPersonProfils: National_3
+ENTPersonSexe: F
+ENTPersonStructRattach: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+ESCODomaines: lycees.netocentre.fr
+ESCOPersonEtatCompte: VALIDE
+ESCOPersonListeRouge: FALSE
+ESCOPersonProfils: ENS
+ESCOUAI: 0450822X
+ESCOUAICourant: 0450822X
+ESCOUAIRattachement: 0450822X
+givenName: CLOTILDE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_701
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_706
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:PHILOSOPHIE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_702
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_703
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_704
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_705
+isMemberOf: esco:Applications:GRR:FICTIF_0450822X
+isMemberOf: esco:Applications:Cahier_de_texte:FICTIF_0450822X
+isMemberOf: esco:Applications:Espace_Moodle:FICTIF_0450822X
+isMemberOf: esco:admin:GRR:local:FICTIF_0450822X
+isMemberOf: esco:admin:local:admin_FICTIF_0450822X
+isMemberOf: esco:Applications:Indicateurs:FICTIF_0450822X
+isMemberOf: esco:admin:sarapis:local:sarapis_FICTIF_0450822X
+isMemberOf: esco:admin:Indicateurs:central
+isMemberOf: esco:Inter_etablissements:Manuels_numeriques:Local
+isMemberOf: esco:Applications:Esidoc:FICTIF_0450822X
+isMemberOf: esco:Applications:GLPI:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:generation_5:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Univ
+isMemberOf: esco:Applications:Espaces_stockage:SSO_samba:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:mondesk:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:MonStageEnLigne
+isMemberOf: esco:Applications:Pronote:FICTIF_0450822X
+isMemberOf: esco:Applications:Listes_Diffusion:FICTIF_0450822X
+isMemberOf: esco:Applications:OBII:FICTIF_0450822X
+isMemberOf: esco:Applications:SACoche:FICTIF_0450822X
+isMemberOf: esco:Applications:Folios:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:MANAGER
+isMemberOf: esco:Applications:Ressources_Editoriales:madmagz:FICTIF_0450822X
+mail: truc@demo-orleans-tours.fr
+personalTitle: Mme
+uid: F1000uf3
+userPassword:: e1NTSEF9MFdBQVdXWUVPWWt5alROb2FGTzh4b2JMWTVWMHloaXhaZTlZeGc9PQ==
+
+dn: uid=F1000uf5,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: DEFULEFA BRUNO
+ENTPersonJointure: AC-DEMO$1979
+ENTPersonLogin: bruno.defulefa
+sn: DEFULEFA
+displayName: DEFULEFA BRUNO
+ENTAuxEnsCategoDiscipline: 52$GENIE ELECTRIQUE ELECTROTECHNIQUE
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$706
+ENTAuxEnsClassesPrincipal: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$706
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$604-GET
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$706-G1
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ELECTROTECHNIQUE
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$AUTOMATIQUE ET INFORMATIQUE INDUSTRIELLE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$23125503110$1ADBTN GENIE ELECTROTECHNIQUE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$21225503110$T_STI GENIE ELECTROTECHNIQUE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$21125503110$1_STI GENIE ELECTROTECHNIQUE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$21125504110$1_STI GENIE ELECTRONIQUE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$23125504110$1ADBTN GENIE ELECTRONIQUE
+ENTPersonDateNaissance: 28/06/1964
+ENTPersonFonctions: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ENS$ENSEIGNEMENT$L5200$ELECTROTECHNIQUE
+ENTPersonNomPatro: DEFULEFA
+ENTPersonProfils: National_3
+ENTPersonSexe: M
+ENTPersonStructRattach: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+ESCODefaultUserProfile: Fictif-skin
+ESCODomaines: lycees.netocentre.fr
+ESCOPersonEtatCompte: VALIDE
+ESCOPersonListeRouge: FALSE
+ESCOPersonProfils: ENS
+ESCOUAI: 0450822X
+ESCOUAICourant: 0450822X
+ESCOUAIRattachement: 0450822X
+givenName: BRUNO
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:AUTOMATIQUE ET INFORMATIQUE INDUSTRIELLE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:ELECTROTECHNIQUE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_706
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+isMemberOf: esco:Applications:GRR:FICTIF_0450822X
+isMemberOf: esco:Applications:Cahier_de_texte:FICTIF_0450822X
+isMemberOf: esco:Applications:Espace_Moodle:FICTIF_0450822X
+isMemberOf: esco:admin:GRR:local:FICTIF_0450822X
+isMemberOf: esco:admin:local:admin_FICTIF_0450822X
+isMemberOf: esco:admin:Moodle:local:FICTIF_0450822X
+isMemberOf: esco:Applications:Indicateurs:FICTIF_0450822X
+isMemberOf: esco:admin:sarapis:local:sarapis_FICTIF_0450822X
+isMemberOf: esco:admin:CAHIER_TEXTE:local:FICTIF_0450822X
+isMemberOf: esco:Inter_etablissements:Manuels_numeriques:Local
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs Principaux
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:Autre
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs Principaux
+isMemberOf: esco:Applications:Esidoc:FICTIF_0450822X
+isMemberOf: esco:Applications:GLPI:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:generation_5:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Univ
+isMemberOf: esco:Applications:Espaces_stockage:SSO_samba:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:mondesk:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:MonStageEnLigne
+isMemberOf: esco:Applications:Pronote:FICTIF_0450822X
+isMemberOf: esco:Applications:Listes_Diffusion:FICTIF_0450822X
+isMemberOf: esco:Applications:OBII:FICTIF_0450822X
+isMemberOf: esco:Applications:SACoche:FICTIF_0450822X
+isMemberOf: esco:Applications:Folios:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:MANAGER
+isMemberOf: esco:Applications:Ressources_Editoriales:madmagz:FICTIF_0450822X
+mail: DEFULEFA@demo-orleans-tours.fr
+personalTitle: M
+uid: F1000uf5
+userPassword:: e1NTSEF9MFdBQVdXWUVPWWt5alROb2FGTzh4b2JMWTVWMHloaXhaZTlZeGc9PQ==
+userPassword:: e21kNX1sdDZ4ODNFVUk2U1oyYXdsSTlHVHdRPT0=
+
+dn: uid=F1000uf9,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: DEBIDAT MATHILDE
+ENTPersonJointure: AC-DEMO$2204
+ENTPersonLogin: mathilde.debidat
+sn: DEBIDAT
+displayName: DEBIDAT MATHILDE
+ENTAuxEnsCategoDiscipline: 16$BIOLOGIE - GEOLOGIE
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$503
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$502
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$501
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$502-GR_A
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$501-GR_A
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$502-GR_B
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$501-GR_B
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$503_GR_A
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$503_GR_B
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$SCIENCES DE LA VIE ET DE LA TERRE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$20010016110$2DEGT3 (CAS DEROGAT. 3 ENS.EXPLO)
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$20010015110$2DEGT2 (CAS GENERAL 2 ENS.EXPLO)
+ENTPersonDateNaissance: 04/09/1974
+ENTPersonFonctions: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ENS$ENSEIGNEMENT$L1600$SCIENCES DE LA VIE ET DE LA TERRE
+ENTPersonNomPatro: DEBIDAT
+ENTPersonProfils: National_ENS
+ENTPersonProfils: National_3
+ENTPersonSexe: F
+ENTPersonStructRattach: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+ESCODomaines: lycees.netocentre.fr
+ESCOPersonEtatCompte: VALIDE
+ESCOPersonListeRouge: FALSE
+ESCOPersonProfils: ENS
+ESCOUAI: 0450822X
+ESCOUAICourant: 0450822X
+ESCOUAIRattachement: 0450822X
+givenName: MATHILDE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:SCIENCES DE LA VIE ET DE LA TERRE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+isMemberOf: esco:Etablissements:FICTIF_0450822X:SECONDE GENERALE et TECHNO YC BT:Profs_503
+isMemberOf: esco:Etablissements:FICTIF_0450822X:SECONDE GENERALE et TECHNO YC BT:Profs_502
+isMemberOf: esco:Etablissements:FICTIF_0450822X:SECONDE GENERALE et TECHNO YC BT:Profs_501
+isMemberOf: esco:Applications:GRR:FICTIF_0450822X
+isMemberOf: esco:Applications:Cahier_de_texte:FICTIF_0450822X
+isMemberOf: esco:Applications:Espace_Moodle:FICTIF_0450822X
+isMemberOf: esco:admin:GRR:local:FICTIF_0450822X
+isMemberOf: esco:admin:GRR:central
+isMemberOf: esco:admin:sarapis:local:sarapis_FICTIF_0450822X
+isMemberOf: esco:admin:CAHIER_TEXTE:local:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:dossier:test2
+isMemberOf: esco:admin:Moodle:local:FICTIF_0450822X
+isMemberOf: esco:Inter_etablissements:Manuels_numeriques:Local
+isMemberOf: esco:Applications:Esidoc:FICTIF_0450822X
+isMemberOf: esco:admin:Listes_Diffusion:local:FICTIF_0450822X
+isMemberOf: esco:Applications:Listes_Diffusion:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:generation_5:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Univ
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Mahara:Moodle-Mahara
+isMemberOf: esco:Applications:Espaces_stockage:SSO_samba:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:mondesk:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:MonStageEnLigne
+isMemberOf: esco:Applications:Pronote:FICTIF_0450822X
+isMemberOf: esco:admin:local:admin_FICTIF_0450822X
+isMemberOf: esco:Applications:Indicateurs:FICTIF_0450822X
+isMemberOf: esco:Applications:GLPI:FICTIF_0450822X
+isMemberOf: esco:Applications:OBII:FICTIF_0450822X
+isMemberOf: esco:Applications:SACoche:FICTIF_0450822X
+isMemberOf: esco:Applications:Folios:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:MANAGER
+isMemberOf: esco:Applications:Ressources_Editoriales:madmagz:FICTIF_0450822X
+mail: DEBIDAT@demo-orleans-tours.fr
+personalTitle: Mlle
+uid: F1000uf9
+userPassword:: e1NTSEF9MFdBQVdXWUVPWWt5alROb2FGTzh4b2JMWTVWMHloaXhaZTlZeGc9PQ==
+
+dn: uid=F1000ugr,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: CUNAFO DIDIER
+ENTPersonJointure: AC-DEMO$21109
+ENTPersonLogin: didier.cunafo
+sn: CUNAFO
+displayName: CUNAFO DIDIER
+ENTAuxEnsCategoDiscipline: 41$GENIE MECANIQUE DE LA CONSTRUCTION
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$706
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$705
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$703
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$704
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$704-G1
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$703-704_
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$502-SI-1
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$AP_2C_1_
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$703-G1
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$703-G1BIS
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ACCOMPAGNEMENT PERSONNALISE
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$SCIENCES DE L INGENIEUR
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ETUDE DES CONSTRUCTIONS
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$20010015110$2DEGT2 (CAS GENERAL 2 ENS.EXPLO)
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$21225503110$T_STI GENIE ELECTROTECHNIQUE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$21225504110$T_STI GENIE ELECTRONIQUE
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$20010016110$2DEGT3 (CAS DEROGAT. 3 ENS.EXPLO)
+ENTPersonDateNaissance: 05/01/1965
+ENTPersonFonctions: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ENS$ENSEIGNEMENT$L4100$GENIE MECANIQUE CONSTRUCTION
+ENTPersonNomPatro: CUNAFO
+ENTPersonProfils: National_ENS
+ENTPersonProfils: National_3
+ENTPersonSexe: M
+ENTPersonStructRattach: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+ESCODomaines: lycees.netocentre.fr
+ESCOPersonEtatCompte: VALIDE
+ESCOPersonListeRouge: FALSE
+ESCOPersonPhoto: /annuaire_images/avatars/gr/1848eefe/avatar0.jpg?18
+ESCOPersonProfils: ENS
+ESCOSIREN: 00000000000001
+ESCOSIREN: 37373737373737
+ESCOSIRENCourant: 00000000000001
+ESCOUAI: 0450822X
+ESCOUAI: 0377777U
+ESCOUAICourant: 0450822X
+ESCOUAIRattachement: 0450822X
+givenName: DIDIER
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:SCIENCES DE L INGENIEUR
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_706
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:ACCOMPAGNEMENT PERSONNALISE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:ETUDE DES CONSTRUCTIONS
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_703
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_704
+isMemberOf: esco:Etablissements:FICTIF_0450822X:TERMINALE GENERALE et TECHNO YC BT:Profs_705
+isMemberOf: esco:Applications:GRR:FICTIF_0450822X
+isMemberOf: esco:Applications:Cahier_de_texte:FICTIF_0450822X
+isMemberOf: esco:Applications:Espace_Moodle:FICTIF_0450822X
+isMemberOf: esco:admin:GRR:local:FICTIF_0450822X
+isMemberOf: esco:admin:GRR:local:FICTIF_0290009C
+isMemberOf: esco:admin:Moodle:local:FICTIF_0450822X
+isMemberOf: esco:Applications:Indicateurs:FICTIF_0450822X
+isMemberOf: esco:admin:sarapis:local:sarapis_FICTIF_0450822X
+isMemberOf: esco:Applications:Pronote:FICTIF_0450822X
+isMemberOf: esco:admin:CAHIER_TEXTE:local:FICTIF_0450822X
+isMemberOf: esco:admin:Listes_Diffusion:local:FICTIF_0450822X
+isMemberOf: esco:Applications:Listes_Diffusion:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:espaces_etablissement:mecanique
+isMemberOf: esco:Inter_etablissements:Manuels_numeriques:Local
+isMemberOf: esco:Applications:Esidoc:FICTIF_0450822X
+isMemberOf: clg37:admin:Listes_Diffusion:local:FICTIF37_0377777U
+isMemberOf: esco:admin:GLPI:local:FICTIF_0450822X
+isMemberOf: esco:Applications:GLPI:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:generation_5:FICTIF_0450822X
+isMemberOf: clg37:Applications:Indicateurs:FICTIF37_0377777U
+isMemberOf: clg37:admin:local:admin_FICTIF37_0377777U
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Univ
+isMemberOf: esco:admin:local:admin_FICTIF_0450822X
+isMemberOf: clg37:Applications:Listes_Diffusion:FICTIF37_0377777U
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Mahara:Moodle-Mahara
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Test_annonces
+isMemberOf: esco:Applications:Espaces_stockage:SSO_samba:FICTIF_0450822X
+isMemberOf: clg37:admin:sarapis:local:sarapis_FICTIF37_0377777U
+isMemberOf: esco:Applications:Espaces_stockage:NTLM_samba:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:mondesk:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:MonStageEnLigne
+isMemberOf: esco:Applications:OBII:FICTIF_0450822X
+isMemberOf: esco:Applications:SACoche:FICTIF_0450822X
+isMemberOf: esco:Applications:Folios:FICTIF_0450822X
+isMemberOf: esco:admin:OMICO:local:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:MANAGER
+isMemberOf: esco:Applications:Publication_contenus:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:LOOKOVER
+isMemberOf: clg37:Applications:Publication_contenus:FICTIF37_0377777U
+isMemberOf: clg37:admin:Publication_contenus:FICTIF37_0377777U:MANAGER
+isMemberOf: esco:Applications:mediacentre:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:madmagz:FICTIF_0450822X
+mail: didier.cunafo@ac-demo.fr
+personalTitle: M
+sambaLMPassword: F97411BBEAE9CD16F28EEAB4E735BD34
+sambaNTPassword: 3376C7DC0EC38AF22F4EC21D06ECEAD3
+uid: F1000ugr
+userPassword:: e1NTSEF9dTNYU096VXp6dGZCdFpYNUpQTnBhdm43T2pOR01UQXdNSFZuY2c9PQ==
+
+dn: uid=F080D5PE,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: BUKISA JEAN MARIE
+ENTPersonJointure: AC-DEMO$24381
+ENTPersonLogin: jean-marie.bukisa
+sn: BUKISA
+displayName: BUKISA JEAN-MARIE
+ENTAuxEnsCategoDiscipline: 31$GENIE THERMIQUE
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TFCA
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$617 TMSB
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TFCA
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TECHNOLOGIE 1
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TP - TECHNO
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704310$2NDPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509310$2NDPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704320$1ERPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509320$1ERPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTPersonDateNaissance: 14/11/1953
+ENTPersonFonctions: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ENS$ENSEIGNEMENT$P3100$GENIE THERMIQUE
+ENTPersonNomPatro: BUKISA
+ENTPersonProfils: National_ENS
+ENTPersonProfils: National_3
+ENTPersonSexe: M
+ENTPersonStructRattach: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+ESCODomaines: lycees.netocentre.fr
+ESCOPersonEtatCompte: VALIDE
+ESCOPersonListeRouge: FALSE
+ESCOPersonProfils: ENS
+ESCOUAI: 0450822X
+ESCOUAICourant: 0450822X
+ESCOUAIRattachement: 0450822X
+givenName: JEAN-MARIE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:BAC PRO 3 ANS 2NDE PRO (OU 1ERE ANNEE):Profs_514
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TECHNOLOGIE 1
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TP - TECHNO
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+isMemberOf: esco:Applications:GRR:FICTIF_0450822X
+isMemberOf: esco:Applications:Cahier_de_texte:FICTIF_0450822X
+isMemberOf: esco:Applications:Espace_Moodle:FICTIF_0450822X
+isMemberOf: esco:Inter_etablissements:Manuels_numeriques:Local
+isMemberOf: esco:Applications:Esidoc:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:generation_5:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Univ
+isMemberOf: esco:admin:GRR:local:FICTIF_0450822X
+isMemberOf: esco:admin:local:admin_FICTIF_0450822X
+isMemberOf: esco:admin:Listes_Diffusion:local:FICTIF_0450822X
+isMemberOf: esco:admin:CAHIER_TEXTE:local:FICTIF_0450822X
+isMemberOf: esco:Applications:Indicateurs:FICTIF_0450822X
+isMemberOf: esco:Applications:GLPI:FICTIF_0450822X
+isMemberOf: esco:admin:sarapis:local:sarapis_FICTIF_0450822X
+isMemberOf: esco:Applications:Pronote:FICTIF_0450822X
+isMemberOf: esco:Applications:Espaces_stockage:SSO_samba:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:mondesk:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:MonStageEnLigne
+isMemberOf: esco:Applications:Listes_Diffusion:FICTIF_0450822X
+isMemberOf: esco:Applications:OBII:FICTIF_0450822X
+isMemberOf: esco:Applications:SACoche:FICTIF_0450822X
+isMemberOf: esco:Applications:Folios:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:MANAGER
+isMemberOf: esco:Applications:Ressources_Editoriales:madmagz:FICTIF_0450822X
+mail: BUKISA@demo-orleans-tours.fr
+personalTitle: M
+sambaLMPassword: 6DA60C3CDB36D52C8B7A880C7FA84D5B
+sambaNTPassword: 342EAFF243AC4F6C09D939EAE7A86C56
+uid: F1000uh7
+userPassword:: e1NTSEF9Nkp5L1pEWjYvcytqc0ZhK2lzYlMvaUEyWWhOR01UQXdNSFZvTnc9PQ==
+
+
+
+dn: uid=F1000uNT,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: BUKISA JEAN MARIE
+ENTPersonJointure: AC-DEMO$24381
+ENTPersonLogin: jean-marie.bukisa
+sn: BUKISA
+displayName: BUKISA JEAN-MARIE
+ENTAuxEnsCategoDiscipline: 31$GENIE THERMIQUE
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TFCA
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$617 TMSB
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TFCA
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TECHNOLOGIE 1
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TP - TECHNO
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704310$2NDPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509310$2NDPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704320$1ERPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509320$1ERPRO TECHNIC. FROID CONDITIONNEMT AIR
+givenName: JEAN-MARIE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:BAC PRO 3 ANS 2NDE PRO (OU 1ERE ANNEE):Profs_514
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TECHNOLOGIE 1
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TP - TECHNO
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+isMemberOf: coll:Applications:GRR:FICTIF_0450800
+isMemberOf: esco:Applications:Cahier_de_texte:FICTIF_0450822X
+isMemberOf: esco:Applications:Espace_Moodle:FICTIF_0450822X
+isMemberOf: esco:Inter_etablissements:Manuels_numeriques:Local
+isMemberOf: esco:Applications:Esidoc:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:generation_5:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Univ
+isMemberOf: esco:admin:local:admin_FICTIF_0450822X
+isMemberOf: esco:admin:Listes_Diffusion:local:FICTIF_0450822X
+isMemberOf: esco:admin:CAHIER_TEXTE:local:FICTIF_0450822X
+isMemberOf: esco:Applications:Indicateurs:FICTIF_0450822X
+isMemberOf: esco:Applications:GLPI:FICTIF_0450822X
+isMemberOf: esco:admin:sarapis:local:sarapis_FICTIF_0450822X
+isMemberOf: esco:Applications:Pronote:FICTIF_0450822X
+isMemberOf: esco:Applications:Espaces_stockage:SSO_samba:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:mondesk:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:MonStageEnLigne
+isMemberOf: esco:Applications:Listes_Diffusion:FICTIF_0450822X
+isMemberOf: esco:Applications:OBII:FICTIF_0450822X
+isMemberOf: esco:Applications:SACoche:FICTIF_0450822X
+isMemberOf: esco:Applications:Folios:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:MANAGER
+isMemberOf: esco:Applications:Ressources_Editoriales:madmagz:FICTIF_0450822X
+mail: BUKISA@demo-orleans-tours.fr
+personalTitle: M
+sambaLMPassword: 6DA60C3CDB36D52C8B7A880C7FA84D5B
+sambaNTPassword: 342EAFF243AC4F6C09D939EAE7A86C56
+uid: F1000uNT
+userPassword:: e1NTSEF9Nkp5L1pEWjYvcytqc0ZhK2lzYlMvaUEyWWhOR01UQXdNSFZvTnc9PQ==
+
+
+
+
+dn: uid=F1000REG,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: BUKISA JEAN MARIE
+ENTPersonJointure: AC-DEMO$24381
+ENTPersonLogin: jean-marie.bukisa
+sn: BUKISA
+displayName: BUKISA JEAN-MARIE
+ENTAuxEnsCategoDiscipline: 31$GENIE THERMIQUE
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TFCA
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$617 TMSB
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TFCA
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TECHNOLOGIE 1
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TP - TECHNO
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704310$2NDPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509310$2NDPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704320$1ERPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509320$1ERPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTPersonDateNaissance: 14/11/1953
+ENTPersonFonctions: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ENS$ENSEIGNEMENT$P3100$GENIE THERMIQUE
+ENTPersonNomPatro: BUKISA
+ENTPersonProfils: National_ENS
+ENTPersonProfils: National_3
+ENTPersonSexe: M
+ENTPersonStructRattach: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+ESCODomaines: lycees.netocentre.fr
+ESCOPersonEtatCompte: VALIDE
+ESCOPersonListeRouge: FALSE
+ESCOPersonProfils: ENS
+ESCOUAI: 0450822X
+ESCOUAICourant: 0450822X
+givenName: JEAN-MARIE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:BAC PRO 3 ANS 2NDE PRO (OU 1ERE ANNEE):Profs_514
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TECHNOLOGIE 1
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TP - TECHNO
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+isMemberOf: esco:Applications:GRR:FICTIF_0450822X
+isMemberOf: esco:Applications:Cahier_de_texte:FICTIF_0450822X
+isMemberOf: esco:Applications:Espace_Moodle:FICTIF_0450822X
+isMemberOf: esco:Inter_etablissements:Manuels_numeriques:Local
+isMemberOf: esco:Applications:Esidoc:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:generation_5:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Univ
+isMemberOf: esco:admin:GRR:local:FICTIF_0450822X
+isMemberOf: esco:admin:local:admin_FICTIF_0450822X
+isMemberOf: esco:admin:Listes_Diffusion:local:FICTIF_0450822X
+isMemberOf: esco:admin:CAHIER_TEXTE:local:FICTIF_0450822X
+isMemberOf: esco:Applications:Indicateurs:FICTIF_0450822X
+isMemberOf: esco:Applications:GLPI:FICTIF_0450822X
+isMemberOf: esco:admin:sarapis:local:sarapis_FICTIF_0450822X
+isMemberOf: esco:Applications:Pronote:FICTIF_0450822X
+isMemberOf: esco:Applications:Espaces_stockage:SSO_samba:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:mondesk:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:MonStageEnLigne
+isMemberOf: esco:Applications:Listes_Diffusion:FICTIF_0450822X
+isMemberOf: esco:Applications:OBII:FICTIF_0450822X
+isMemberOf: esco:Applications:SACoche:FICTIF_0450822X
+isMemberOf: esco:Applications:Folios:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:MANAGER
+isMemberOf: esco:Applications:Ressources_Editoriales:madmagz:FICTIF_0450822X
+mail: BUKISA@demo-orleans-tours.fr
+personalTitle: M
+sambaLMPassword: 6DA60C3CDB36D52C8B7A880C7FA84D5B
+sambaNTPassword: 342EAFF243AC4F6C09D939EAE7A86C56
+uid: F1000REG
+userPassword:: e1NTSEF9Nkp5L1pEWjYvcytqc0ZhK2lzYlMvaUEyWWhOR01UQXdNSFZvTnc9PQ==
+
+
+dn: uid=F1000RE1,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: BUKISA JEAN MARIE
+ENTPersonJointure: AC-DEMO$24381
+ENTPersonLogin: jean-marie.bukisa
+sn: BUKISA
+displayName: BUKISA JEAN-MARIE
+ENTAuxEnsCategoDiscipline: 31$GENIE THERMIQUE
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TFCA
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$617 TMSB
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TFCA
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TECHNOLOGIE 1
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TP - TECHNO
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704310$2NDPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509310$2NDPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704320$1ERPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509320$1ERPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTPersonDateNaissance: 14/11/1953
+ENTPersonFonctions: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ENS$ENSEIGNEMENT$P3100$GENIE THERMIQUE
+ENTPersonNomPatro: BUKISA
+ENTPersonProfils: National_ENS
+ENTPersonProfils: National_3
+ENTPersonSexe: M
+ENTPersonStructRattach: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+ESCODomaines: lycees.netocentre.fr
+ESCOPersonEtatCompte: VALIDE
+ESCOPersonListeRouge: FALSE
+ESCOPersonProfils: ENS
+ESCOUAI: 0450822X
+givenName: JEAN-MARIE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:BAC PRO 3 ANS 2NDE PRO (OU 1ERE ANNEE):Profs_514
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TECHNOLOGIE 1
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TP - TECHNO
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+isMemberOf: esco:Applications:GRR:FICTIF_0450822X
+isMemberOf: esco:Applications:Cahier_de_texte:FICTIF_0450822X
+isMemberOf: esco:Applications:Espace_Moodle:FICTIF_0450822X
+isMemberOf: esco:Inter_etablissements:Manuels_numeriques:Local
+isMemberOf: esco:Applications:Esidoc:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:generation_5:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:Univ
+isMemberOf: esco:admin:GRR:local:FICTIF_0450822X
+isMemberOf: esco:admin:local:admin_FICTIF_0450822X
+isMemberOf: esco:admin:Listes_Diffusion:local:FICTIF_0450822X
+isMemberOf: esco:admin:CAHIER_TEXTE:local:FICTIF_0450822X
+isMemberOf: esco:Applications:Indicateurs:FICTIF_0450822X
+isMemberOf: esco:Applications:GLPI:FICTIF_0450822X
+isMemberOf: esco:admin:sarapis:local:sarapis_FICTIF_0450822X
+isMemberOf: esco:Applications:Pronote:FICTIF_0450822X
+isMemberOf: esco:Applications:Espaces_stockage:SSO_samba:FICTIF_0450822X
+isMemberOf: esco:Applications:Ressources_Editoriales:mondesk:FICTIF_0450822X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:groupes_locaux:MonStageEnLigne
+isMemberOf: esco:Applications:Listes_Diffusion:FICTIF_0450822X
+isMemberOf: esco:Applications:OBII:FICTIF_0450822X
+isMemberOf: esco:Applications:SACoche:FICTIF_0450822X
+isMemberOf: esco:Applications:Folios:FICTIF_0450822X
+isMemberOf: esco:admin:Publication_contenus:FICTIF_0450822X:MANAGER
+isMemberOf: esco:Applications:Ressources_Editoriales:madmagz:FICTIF_0450822X
+mail: BUKISA@demo-orleans-tours.fr
+personalTitle: M
+sambaLMPassword: 6DA60C3CDB36D52C8B7A880C7FA84D5B
+sambaNTPassword: 342EAFF243AC4F6C09D939EAE7A86C56
+uid: F1000RE1
+userPassword:: e1NTSEF9Nkp5L1pEWjYvcytqc0ZhK2lzYlMvaUEyWWhOR01UQXdNSFZvTnc9PQ==
+
+
+
+dn: uid=F1000RE2,ou=people,dc=esco-centre,dc=fr
+objectClass: ENTAuxEnseignant
+objectClass: ENTPerson
+objectClass: ESCOAddons
+objectClass: eduMember
+cn: BUKISA JEAN MARIE
+ENTPersonJointure: AC-DEMO$24381
+ENTPersonLogin: jean-marie.bukisa
+sn: BUKISA
+displayName: BUKISA JEAN-MARIE
+ENTAuxEnsCategoDiscipline: 31$GENIE THERMIQUE
+ENTAuxEnsClasses: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TMSE
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$614-TFCA
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$617 TMSB
+ENTAuxEnsGroupes: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$514-TFCA
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TECHNOLOGIE 1
+ENTAuxEnsMatiereEnseignEtab: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$TP - TECHNO
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704310$2NDPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509310$2NDPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24722704320$1ERPRO TECHN. MAINT. SYST.ENERG.CLIMATIQ
+ENTAuxEnsMEF: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$24725509320$1ERPRO TECHNIC. FROID CONDITIONNEMT AIR
+ENTPersonDateNaissance: 14/11/1953
+ENTPersonFonctions: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr$ENS$ENSEIGNEMENT$P3100$GENIE THERMIQUE
+ENTPersonNomPatro: BUKISA
+ENTPersonProfils: National_ENS
+ENTPersonProfils: National_3
+ENTPersonSexe: M
+ENTPersonStructRattach: ENTStructureSIREN=00000000000001,ou=structures,dc=esco-centre,dc=fr
+ESCODomaines: lycees.netocentre.fr
+ESCOPersonEtatCompte: VALIDE
+ESCOPersonListeRouge: FALSE
+ESCOPersonProfils: ENS
+givenName: JEAN-MARIE
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Profs
+isMemberOf: esco:Etablissements:FICTIF_0450822X:BAC PRO 3 ANS 2NDE PRO (OU 1ERE ANNEE):Profs_514
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TECHNOLOGIE 1
+isMemberOf: esco:admin:GRR:local:FICTIF_0450820X
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Enseignements:TP - TECHNO
+isMemberOf: esco:Etablissements:FICTIF_0450822X:Tous_FICTIF
+mail: BUKISA@demo-orleans-tours.fr
+personalTitle: M
+sambaLMPassword: 6DA60C3CDB36D52C8B7A880C7FA84D5B
+sambaNTPassword: 342EAFF243AC4F6C09D939EAE7A86C56
+uid: F1000RE2
+userPassword:: e1NTSEF9Nkp5L1pEWjYvcytqc0ZhK2lzYlMvaUEyWWhOR01UQXdNSFZvTnc9PQ==
+

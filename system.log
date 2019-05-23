@@ -1,0 +1,158 @@
+2019-03-27 09:24:55,071 [INFO ] fr.recia.grr.MetierApplication - Starting MetierApplication on GFI302151 with PID 1812 (E:\RECIA\ESCOSynchroGRR\target\classes started by FRUP69169 in E:\RECIA\ESCOSynchroGRR)
+2019-03-27 09:24:55,075 [DEBUG] fr.recia.grr.MetierApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-03-27 09:24:55,075 [INFO ] fr.recia.grr.MetierApplication - No active profile set, falling back to default profiles: default
+2019-03-27 09:24:55,220 [ERROR] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [fr.recia.grr.MetierApplication]; nested exception is java.io.FileNotFoundException: class path resource [regroupementEtablissements.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:691)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:528)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at fr.recia.grr.MetierApplication.main(MetierApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.io.FileNotFoundException: class path resource [regroupementEtablissements.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:99)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:73)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:59)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:67)
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:37)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:452)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:271)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 17 common frames omitted
+2019-03-27 09:25:44,225 [INFO ] fr.recia.grr.MetierApplication - Starting MetierApplication on GFI302151 with PID 18184 (E:\RECIA\ESCOSynchroGRR\target\classes started by FRUP69169 in E:\RECIA\ESCOSynchroGRR)
+2019-03-27 09:25:44,229 [DEBUG] fr.recia.grr.MetierApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-03-27 09:25:44,230 [INFO ] fr.recia.grr.MetierApplication - No active profile set, falling back to default profiles: default
+2019-03-27 09:25:46,641 [INFO ] fr.recia.grr.MetierApplication - Started MetierApplication in 2.769 seconds (JVM running for 3.932)
+2019-03-27 10:51:39,020 [INFO ] fr.recia.grr.MetierApplication - Starting MetierApplication on GFI302151 with PID 24232 (E:\RECIA\ESCOSynchroGRR\target\classes started by FRUP69169 in E:\RECIA\ESCOSynchroGRR)
+2019-03-27 10:51:39,030 [DEBUG] fr.recia.grr.MetierApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-03-27 10:51:39,030 [INFO ] fr.recia.grr.MetierApplication - No active profile set, falling back to default profiles: default
+2019-03-27 10:51:43,168 [INFO ] fr.recia.grr.MetierApplication - Started MetierApplication in 4.526 seconds (JVM running for 5.969)
+2019-03-27 11:03:08,872 [INFO ] fr.recia.grr.MetierApplication - Starting MetierApplication on GFI302151 with PID 25428 (E:\RECIA\ESCOSynchroGRR\target\classes started by FRUP69169 in E:\RECIA\ESCOSynchroGRR)
+2019-03-27 11:03:08,876 [DEBUG] fr.recia.grr.MetierApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-03-27 11:03:08,877 [INFO ] fr.recia.grr.MetierApplication - No active profile set, falling back to default profiles: default
+2019-03-27 11:03:11,472 [INFO ] f.r.grr.batch.config.BatchConfig - Date de derniere Execution : 20190325141801Z
+2019-03-27 11:03:11,473 [INFO ] f.r.grr.batch.config.BatchConfig - Date de nouvelle execution Execution : 20190327100311Z
+2019-03-27 11:03:12,499 [INFO ] fr.recia.grr.MetierApplication - Started MetierApplication in 4.001 seconds (JVM running for 5.526)
+2019-03-27 11:03:12,648 [INFO ] f.r.g.b.l.ExecutionListenerJob - Statut du job : STARTED
+2019-03-27 11:03:12,686 [INFO ] f.r.g.b.l.ExecutionListenerStep - -------------------------------------
+2019-03-27 11:03:12,687 [INFO ] f.r.g.b.l.ExecutionListenerStep - Execution de l'etape misAjourEtablissement
+2019-03-27 11:03:12,703 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de lecture : 0
+2019-03-27 11:03:12,704 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre d'ecriture : 0
+2019-03-27 11:03:12,704 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de skip    : 0
+2019-03-27 11:03:12,705 [INFO ] f.r.g.b.l.ExecutionListenerStep - Status de l'etape : COMPLETED
+2019-03-27 11:03:12,719 [ERROR] o.s.batch.core.job.AbstractJob - Encountered fatal error executing job
+org.springframework.batch.core.JobExecutionException: Flow execution ended unexpectedly
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:142)
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:313)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:144)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy118.run(Unknown Source)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner.execute(JobLauncherCommandLineRunner.java:214)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner.executeLocalJobs(JobLauncherCommandLineRunner.java:186)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner.launchJobFromProperties(JobLauncherCommandLineRunner.java:172)
+	at org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner.run(JobLauncherCommandLineRunner.java:166)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:813)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at fr.recia.grr.MetierApplication.main(MetierApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.batch.core.job.flow.FlowExecutionException: Next state not found in flow=Syncro for state=Syncro.misAjourEtablissement with exit status=COMPLETED
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.nextState(SimpleFlow.java:233)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.resume(SimpleFlow.java:186)
+	at org.springframework.batch.core.job.flow.support.SimpleFlow.start(SimpleFlow.java:144)
+	at org.springframework.batch.core.job.flow.FlowJob.doExecute(FlowJob.java:136)
+	... 30 common frames omitted
+2019-03-27 11:03:12,721 [INFO ] f.r.g.b.l.ExecutionListenerJob - Statut du job : FAILED
+2019-03-27 11:03:12,721 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de la creation : Wed Mar 27 11:03:12 CET 2019
+2019-03-27 11:03:12,721 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de debut : Wed Mar 27 11:03:12 CET 2019
+2019-03-27 11:03:12,721 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de fin : Wed Mar 27 11:03:12 CET 2019
+2019-03-27 11:03:12,721 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de la derniere modification : Wed Mar 27 11:03:12 CET 2019
+2019-03-27 11:04:04,039 [INFO ] fr.recia.grr.MetierApplication - Starting MetierApplication on GFI302151 with PID 25388 (E:\RECIA\ESCOSynchroGRR\target\classes started by FRUP69169 in E:\RECIA\ESCOSynchroGRR)
+2019-03-27 11:04:04,043 [DEBUG] fr.recia.grr.MetierApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-03-27 11:04:04,043 [INFO ] fr.recia.grr.MetierApplication - No active profile set, falling back to default profiles: default
+2019-03-27 11:04:06,741 [INFO ] f.r.grr.batch.config.BatchConfig - Date de derniere Execution : 20190325141801Z
+2019-03-27 11:04:06,742 [INFO ] f.r.grr.batch.config.BatchConfig - Date de nouvelle execution Execution : 20190327100406Z
+2019-03-27 11:04:07,798 [INFO ] fr.recia.grr.MetierApplication - Started MetierApplication in 4.12 seconds (JVM running for 5.203)
+2019-03-27 11:04:07,945 [INFO ] f.r.g.b.l.ExecutionListenerJob - Statut du job : STARTED
+2019-03-27 11:04:07,973 [INFO ] f.r.g.b.l.ExecutionListenerStep - -------------------------------------
+2019-03-27 11:04:07,974 [INFO ] f.r.g.b.l.ExecutionListenerStep - Execution de l'etape misAjourEtablissement
+2019-03-27 11:04:07,990 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de lecture : 0
+2019-03-27 11:04:07,990 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre d'ecriture : 0
+2019-03-27 11:04:07,990 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de skip    : 0
+2019-03-27 11:04:07,991 [INFO ] f.r.g.b.l.ExecutionListenerStep - Status de l'etape : COMPLETED
+2019-03-27 11:04:08,028 [INFO ] f.r.g.b.l.ExecutionListenerStep - -------------------------------------
+2019-03-27 11:04:08,028 [INFO ] f.r.g.b.l.ExecutionListenerStep - Execution de l'etape endBatch
+2019-03-27 11:04:08,032 [INFO ] f.r.grr.batch.config.BatchConfig - Mise a jour de la date de derniere mise a jour : 20190327100406Z 
+2019-03-27 11:04:08,040 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de lecture : 0
+2019-03-27 11:04:08,040 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre d'ecriture : 0
+2019-03-27 11:04:08,040 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de skip    : 0
+2019-03-27 11:04:08,040 [INFO ] f.r.g.b.l.ExecutionListenerStep - Status de l'etape : COMPLETED
+2019-03-27 11:04:08,051 [INFO ] f.r.g.b.l.ExecutionListenerJob - Statut du job : COMPLETED
+2019-03-27 11:04:08,051 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de la creation : Wed Mar 27 11:04:07 CET 2019
+2019-03-27 11:04:08,051 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de debut : Wed Mar 27 11:04:07 CET 2019
+2019-03-27 11:04:08,052 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de fin : Wed Mar 27 11:04:08 CET 2019
+2019-03-27 11:04:08,052 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de la derniere modification : Wed Mar 27 11:04:07 CET 2019
+2019-03-27 11:06:45,307 [INFO ] fr.recia.grr.MetierApplication - Starting MetierApplication on GFI302151 with PID 28244 (E:\RECIA\ESCOSynchroGRR\target\classes started by FRUP69169 in E:\RECIA\ESCOSynchroGRR)
+2019-03-27 11:06:45,310 [DEBUG] fr.recia.grr.MetierApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-03-27 11:06:45,310 [INFO ] fr.recia.grr.MetierApplication - No active profile set, falling back to default profiles: default
+2019-03-27 11:06:48,038 [INFO ] f.r.grr.batch.config.BatchConfig - Date de derniere Execution : 20190325141801Z
+2019-03-27 11:06:48,039 [INFO ] f.r.grr.batch.config.BatchConfig - Date de nouvelle execution Execution : 20190327100648Z
+2019-03-27 11:06:49,042 [INFO ] fr.recia.grr.MetierApplication - Started MetierApplication in 4.069 seconds (JVM running for 5.661)
+2019-03-27 11:06:49,176 [INFO ] f.r.g.b.l.ExecutionListenerJob - Statut du job : STARTED
+2019-03-27 11:06:49,203 [INFO ] f.r.g.b.l.ExecutionListenerStep - -------------------------------------
+2019-03-27 11:06:49,203 [INFO ] f.r.g.b.l.ExecutionListenerStep - Execution de l'etape misAjourEtablissement
+2019-03-27 11:06:49,218 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de lecture : 0
+2019-03-27 11:06:49,218 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre d'ecriture : 0
+2019-03-27 11:06:49,218 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de skip    : 0
+2019-03-27 11:06:49,219 [INFO ] f.r.g.b.l.ExecutionListenerStep - Status de l'etape : COMPLETED
+2019-03-27 11:06:49,253 [INFO ] f.r.g.b.l.ExecutionListenerStep - -------------------------------------
+2019-03-27 11:06:49,253 [INFO ] f.r.g.b.l.ExecutionListenerStep - Execution de l'etape misAjourPersonnes
+2019-03-27 11:06:49,260 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de lecture : 0
+2019-03-27 11:06:49,260 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre d'ecriture : 0
+2019-03-27 11:06:49,260 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de skip    : 0
+2019-03-27 11:06:49,260 [INFO ] f.r.g.b.l.ExecutionListenerStep - Status de l'etape : COMPLETED
+2019-03-27 11:06:49,292 [INFO ] f.r.g.b.l.ExecutionListenerStep - -------------------------------------
+2019-03-27 11:06:49,292 [INFO ] f.r.g.b.l.ExecutionListenerStep - Execution de l'etape endBatch
+2019-03-27 11:06:49,296 [INFO ] f.r.grr.batch.config.BatchConfig - Mise a jour de la date de derniere mise a jour : 20190327100648Z 
+2019-03-27 11:06:49,304 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de lecture : 0
+2019-03-27 11:06:49,304 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre d'ecriture : 0
+2019-03-27 11:06:49,304 [INFO ] f.r.g.b.l.ExecutionListenerStep - Nombre de skip    : 0
+2019-03-27 11:06:49,304 [INFO ] f.r.g.b.l.ExecutionListenerStep - Status de l'etape : COMPLETED
+2019-03-27 11:06:49,337 [INFO ] f.r.g.b.l.ExecutionListenerJob - Statut du job : COMPLETED
+2019-03-27 11:06:49,338 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de la creation : Wed Mar 27 11:06:49 CET 2019
+2019-03-27 11:06:49,338 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de debut : Wed Mar 27 11:06:49 CET 2019
+2019-03-27 11:06:49,338 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de fin : Wed Mar 27 11:06:49 CET 2019
+2019-03-27 11:06:49,338 [INFO ] f.r.g.b.l.ExecutionListenerJob - Date de la derniere modification : Wed Mar 27 11:06:49 CET 2019
